@@ -19,4 +19,7 @@ describe('Testes da função HandlerElephants', () => {
   test('Quando for passado availability retorna um arrau com a relação de dias em que é possivel visitar os elefantes', () => {
     expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
   });
+  test('Quando não for passado argumento retorna undefined', () => {
+    expect(handlerElephants()).toBeUndefined();
+  });
 });
