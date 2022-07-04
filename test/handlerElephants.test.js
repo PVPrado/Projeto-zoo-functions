@@ -22,4 +22,10 @@ describe('Testes da função HandlerElephants', () => {
   test('Quando não for passado argumento retorna undefined', () => {
     expect(handlerElephants()).toBeUndefined();
   });
+  test('Quando for passado um objeto vazio como argumento retorna alerta', () => {
+    expect(handlerElephants({})).toBe('Parâmetro inválido, é necessário uma string');
+  });
+  test('Quando for passada uma string que não contempla uma funcionalidade retorna null', () => {
+    expect(handlerElephants('taturana')).toBeNull();
+  });
 });
