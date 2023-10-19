@@ -1,6 +1,6 @@
 # Projeto-zoo-functions
 
-Projeto para simular um sistema de relatório de um zoológico.
+Projeto que simula um sistema de relatório de um zoológico.
 
 # Visão Geral 
 
