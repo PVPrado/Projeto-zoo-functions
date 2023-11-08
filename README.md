@@ -8,7 +8,8 @@ Esse projeto foi onde apliquei todo o conhecimento adquirido no módulo de funda
 
 # Ferramentas
 
-Javascript e Jest.
+- Javascript
+- Jest
 
 # Instalação
 
