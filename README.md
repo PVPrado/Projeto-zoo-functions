@@ -8,8 +8,8 @@ Esse projeto foi onde apliquei todo o conhecimento adquirido no módulo de funda
 
 # Ferramentas e tecnologias
 
-- Linguagem de programação: Javascript
-- Framework: Jest
+- Linguagem de programação: **Javascript**
+- Framework: **Jest**
 
 # Instalação
 
